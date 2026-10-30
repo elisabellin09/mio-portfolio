@@ -1,0 +1,14 @@
+.titolo{
+    color:brown;
+    background-color:cornflowerblue;
+    text-transform:uppercase;
+    text-align:center;
+    padding:1.5em;
+    }
+
+body{
+    background-color: aquamarine;
+
+    }
+
+h1{color:brown}
