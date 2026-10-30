@@ -1,14 +1,22 @@
 .titolo{
-    color:brown;
-    background-color:cornflowerblue;
+    color:crimson;
+    background-color:rgb(186, 210, 255);
     text-transform:uppercase;
-    text-align:center;
+    text-align:left;
     padding:1.5em;
+    font-weight:900;
     }
 
 body{
-    background-color: aquamarine;
-
+    background-color: cadetblue;
+    color:rgb(255, 123, 0);
+    margin:0%
     }
 
-h1{color:brown}
+h1{color:crimson;
+   background-color:rgb(186, 210, 255);
+   text-transform:uppercase;
+   text-align: center;
+   padding:1.5em;
+   font-weight:bolder;
+   }
