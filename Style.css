@@ -1,22 +1,28 @@
-.titolo{
-    color:crimson;
-    background-color:rgb(186, 210, 255);
-    text-transform:uppercase;
+.liste{
     text-align:left;
+    background-color:beige;
+    border-left:0.5em solid crimson;
     padding:1.5em;
-    font-weight:900;
-    }
+   
+}
 
 body{
-    background-color: cadetblue;
+    background-color: lightskyblue;
     color:rgb(255, 123, 0);
-    margin:0%
-    }
+    margin:3px;
+}
 
 h1{color:crimson;
-   background-color:rgb(186, 210, 255);
+   background-color:beige;
    text-transform:uppercase;
    text-align: center;
    padding:1.5em;
    font-weight:bolder;
-   }
+}
+
+.liste{
+    background-color:beige;
+    padding:1.5em;
+    border-left:0.5em solid crimson;
+    text-align:left;
+}
