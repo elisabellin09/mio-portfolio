@@ -1,28 +1,32 @@
 .liste{
     text-align:left;
-    background-color:beige;
-    border-left:0.5em solid crimson;
+    background-color:aliceblue;
+    border-left:0.5em solid rgb(255, 123, 0);
     padding:1.5em;
    
 }
 
 body{
-    background-color: lightskyblue;
+    background-color: aqua;
     color:rgb(255, 123, 0);
     margin:3px;
 }
 
-h1{color:crimson;
-   background-color:beige;
+h1{color:rgb(255, 123, 0);
+   background-color:aliceblue;
    text-transform:uppercase;
    text-align: center;
+   margin:3px;
    padding:1.5em;
-   font-weight:bolder;
+   font-weight:900;
+   font-size: x-large;
 }
 
 .liste{
-    background-color:beige;
+    background-color:aliceblue;
     padding:1.5em;
-    border-left:0.5em solid crimson;
+    border-left:0.5em solid rgb(255, 123, 0);
     text-align:left;
+    margin: 3px;
+    font-size:larger;
 }
