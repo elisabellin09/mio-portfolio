@@ -8,20 +8,21 @@
 
 body{
     background-color:rgb(150, 240, 240);
+    text-align: center;
     color:rgb(122, 84, 184);
     margin:3px;
 }
 
-h1{color:rgb(122, 84, 184);
+.titolo{
+   color:rgb(122, 84, 184);
    background-color:aliceblue;
    text-transform:uppercase;
    text-align: center;
-   width: 30%;
-   margin: 10px;
    padding: 15px;
-   font-size: x-large;
-   border:0.3em solid rgb(122, 84, 184);
+   font-size: large;
+   border:0.5em solid rgb(122, 84, 184);
 }
+
 
 .liste{
     background-color:aliceblue;
@@ -32,6 +33,25 @@ h1{color:rgb(122, 84, 184);
     padding: 15px;
 }
 
-#button{
+#button-invia{
+    background-color: rgb(122, 84, 184);
+    color:aliceblue;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.input{
+    background-color: aliceblue;
+    border:0.3em solid rgb(122, 84, 184);
+
+}
+
+.pagina{
+    display:flex;
+}
+
+.immagine{
+    height:1000px;
+    width:1000px;
 
 }

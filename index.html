@@ -4,25 +4,39 @@
         <title>Pianifica la tua Vacanza</title>
         <link rel="stylesheet" href="Style.css">
     </head>
-    <body>
-      <h1>Pianifica la tua Vacanza</h1>
+ <body>
+    <div class="titolo">
+    <h1>Pianifica la tua Vacanza</h1>
+    </div>
       
-        <div class="liste">
-        <div class="intestazione">Menu Principale</div>
-        <p>Dove vuoi andare?</p>
-        <ol>
-            <li><a href="https://github.com/elisabellin09/mio-portfolio/blob/main/Selezione_Paesi.html">Paesi</a></li>
-            <li><a href="https://github.com/elisabellin09/mio-portfolio/blob/main/Selezione_Citt%C3%A0.html">Città</a></li>
-        </ol>
-        </div>
-        <div class="liste">
-        <div class="intestazione">Cosa vuoi fare nella tua vacanza?</div>
-        <p>A cosa sei interessato?</p>
-        <ol>
-            <li><a href="https://github.com/elisabellin09/mio-portfolio/blob/main/Eventi.html">Eventi</a></li>
-            <li><a href="https://github.com/elisabellin09/mio-portfolio/blob/main/Musei.html">Musei</a></li>
-            <li><a href="https://github.com/elisabellin09/mio-portfolio/blob/main/Ristoranti.html">Ristoranti</a></li>
-        </ol>
-        </div>
-    </body>
+    <div class="liste">
+    <div class="intestazione">Menu Principale</div>
+    <p>Dove vuoi andare?</p>
+    <ul>
+        <li><a href="Selezione_Paesi.html">Paesi</a></li>
+        <li><a href="Selezione_Citta.html">Città</a></li>
+    </ul>
+    </div>
+    <div class="liste">
+    <div class="intestazione">Cosa vuoi fare nella tua vacanza?</div>
+    <p>A cosa sei interessato?</p>
+    <ul>
+        <li><a href="Eventi.html">Eventi</a></li>
+        <li><a href="Musei.html">Musei</a></li>
+        <li><a href="Ristoranti.html">Ristoranti</a></li>
+    </ul>
+    </div>
+    <div class="pagina">
+    <div class="input">
+    <label for="domanda">Se hai già le idee chiare, inserisci la tua città:</label>
+    <input type="text" id="domanda" name="domanda">
+    
+    <button id="button-invia">Invia</button>
+    <button>Annulla</button>
+    </div>
+    </div>
+    <div class="immagine">
+    <img src="viaggi.jpg" alt="viaggi">
+    </div>
+ </body>
 </html>
