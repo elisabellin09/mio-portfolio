@@ -1,40 +1,39 @@
-.liste{
-    text-align:left;
-    background-color:aliceblue;
-    border-left:0.5em solid rgb(122, 84, 184);
-    padding:1.5em;
-   
-}
+
 
 body{
-    background-color:rgb(150, 240, 240);
+    background-color:rgb(94, 223, 246);
     text-align: center;
-    color:rgb(122, 84, 184);
+    color:rgb(230, 150, 1);
     margin:3px;
+    font-family:URW Chancery L, cursive;
 }
 
 .titolo{
-   color:rgb(122, 84, 184);
+   color:rgb(230, 150, 1);
    background-color:aliceblue;
    text-transform:uppercase;
    text-align: center;
    padding: 15px;
    font-size: large;
-   border:0.5em solid rgb(122, 84, 184);
+   font-weight: bold;
+   font-family: Impact,fantasy;
 }
 
 
 .liste{
     background-color:aliceblue;
-    border:0.5em solid rgb(122, 84, 184);
+    text-align: left;
+    border-radius:20px;
+    border:0.5em solid rgb(230, 150, 1);
     font-size:larger;
+    font-weight:700;
     width: 30%;
     margin: 10px;
     padding: 15px;
 }
 
 #button-invia{
-    background-color: rgb(122, 84, 184);
+    background-color: rgb(230, 150, 1);
     color:aliceblue;
     border-radius:20px;
     cursor: pointer;
@@ -42,7 +41,8 @@ body{
 
 .input{
     background-color: aliceblue;
-    border:0.3em solid rgb(122, 84, 184);
+    border:0.5em solid rgb(230, 150, 1);
+    border-radius:20px;
 
 }
 
@@ -51,7 +51,12 @@ body{
 }
 
 .immagine{
-    height:1000px;
-    width:1000px;
-
+    position:absolute;
+    right:15%;/*distanza dalla destra*/
+    top:54%;
+    transform:translateY(-50%);/*centra l'elemento*/
+    height:600px;
+    width:600px;
+    border-radius:50%;
+    object-fit:cover;
 }
