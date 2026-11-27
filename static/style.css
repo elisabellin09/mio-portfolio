@@ -1,0 +1,64 @@
+
+
+body{
+    background-color:rgb(94, 223, 246);
+    text-align: center;
+    color:rgb(230, 150, 1);
+    margin:3px;
+    font-family:URW Chancery L, cursive;
+}
+
+.titolo{
+   color:rgb(0, 192, 226);
+   background-color:aliceblue;
+   text-transform:uppercase;
+   text-align: center;
+   padding: 15px;
+   font-size: large;
+   font-weight: bold;
+   font-family: Impact,fantasy;
+}
+
+
+.liste{
+    background-color:aliceblue;
+    text-align: left;
+    border-radius:20px;
+    border:0.5em solid rgb(230, 150, 1);
+    font-size:larger;
+    font-weight:700;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+}
+
+#button-invia{
+    background-color: rgb(230, 150, 1);
+    color:aliceblue;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.input{
+    color:rgb(0, 192, 226);
+    font-size:larger;
+    background-color: aliceblue;
+    border:0.5em solid rgb(230, 150, 1);
+    border-radius:20px;
+
+}
+
+.pagina{
+    display:flex;
+}
+
+.immagine{
+    position:absolute;
+    right:13%;/*distanza dalla destra*/
+    top:53%;
+    transform:translateY(-50%);/*centra l'elemento*/
+    height:600px;
+    width:600px;
+    border-radius:50%;
+    object-fit:cover;
+}

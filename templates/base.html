@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Let's Travel!</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    </head>
+ <body>
+    <div class="titolo">
+    <h1>Let's Travel!</h1>
+    </div>
+      
+    <div class="liste">
+    <div class="titolo">Dove vuoi andare?</div>
+    <p>Seleziona una delle due opzioni per iniziare la tua avventura!</p>
+    <ul>
+        <li><a href="{{url_for('paesi')}}">Paesi</a></li>
+        <li><a href="{{url_for('citta')}}">Città</a></li>
+    </ul>
+    </div>
+    <div class="liste">
+    <div class="titolo">Cosa vuoi fare?</div>
+    <p>Scopri tutte le migliori attività dovunque vuoi!</p>
+    <ul>
+        <li><a href="{{url_for('eventi')}}">Eventi</a></li>
+        <li><a href="{{url_for('musei')}}">Musei</a></li>
+        <li><a href="{{url_for('ristoranti')}}">Ristoranti</a></li>
+    </ul>
+    </div>
+    <div class="pagina">
+    <div class="input">
+    <label for="domanda">Se hai già le idee chiare, inserisci la tua destinazione:</label>
+    <input type="text" id="domanda" name="domanda">
+    
+    <button id="button-invia">Invia</button>
+    <button>Annulla</button>
+    </div>
+    </div>
+    <img class="immagine" src="{{url_for('static', filename='viaggi.avif')}}" alt="viaggi">
+
+    <div>
+        {%block contenuto%}{%endblock%}
+    </div>
+ </body>
+</html>
+
